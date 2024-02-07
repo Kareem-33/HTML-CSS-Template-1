@@ -208,6 +208,11 @@ header .links ul li a:hover{
   box-shadow: 3px 6px 3px 1px rgb(0 0 0 / 4%);
   transform: rotate(2deg) scale(110%);
 }
+@media (max-width: 767px) {
+  .features .feat:hover{
+    transform: none;
+  }
+}
 .features .feat i{
   color: var(--primary-color);
 }
@@ -489,5 +494,10 @@ footer{
 }
 footer div span{
   color: var(--primary-color);
+}
+@media (max-width: 767px) {
+  footer div{
+    font-size: 0.8em;
+  }
 }
 /* End Footer */
